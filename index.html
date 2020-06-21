@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>Orit Kozolin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div id="container">
+        <div id="title">CSS & HTML shake interaction - Flex trick</div>
+        <p id="author">by: Orit Kozolin - FrontEnd / FullStack Developer
+            <a href="https://www.linkedin.com/in/okozo/">Linkedin</a>
+        </p>
+        <div class="intro">
+            <p><strong>Purpose:</strong> Activate animation where the triggering element should be displayed after the animated element.</p>
+            <p><strong>The Problem:</strong> With pure HTML,CSS the triggering element should be a parent or a sibling preceeding the animated elemnet in the DOM tree, which condredicts the display spec. Checkout the example and code below to see how it's done</p>
+        </div>
+        <p> Hover over the blue bar, and watch the notification shake. That's the effect.</p>
+        <p>For this to work you need to do 2 steps:</p>
+        <div class="steps">
+            <p>1. HTML - Place the triggering element (the bar) first in the DOM. And, the triggered element (the notification) after. (Siblings HTML elements or Parent and Child)</p>
+            <p>2. CSS - Flip their display (rendering) using 'flex-direction: reverse-column' (This is the trick!).</p>
+            <p>That's it , you're done!<a href="https://github.com/okozolin"> see code</a></p>
+        </div>
+    </div>
+    <div id="example-container">
+        <div class="form-container">
+            <div class="side sidemark1">
+            </div>
+            <div class="content-container">
+                <div class="notification">
+                    <div class="bar-container">
+                        <div class="bar"></div>
+                    </div>
+
+                    <div class="bottom-arrow">
+                        <span class="normal-text">
+                            Lorem ipsum dolor sit amet, consectetur
+                        </span>
+                    </div>
+                </div>
+                <div class="content">
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+            </div>
+            <div class="side sidemark2">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
