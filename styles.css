@@ -9,23 +9,15 @@
     --size-huge:            2rem;       /* 32px */
 
     /* COLORS */
-    --primary-main:         #FAC7FF;
-    --primary-light:        #FEC1EE;
-    --primary-dark:         #E47DE9;
-    --primary-dark2:        #CF75E0;
-    --secondary-main:       #04D458;
     --secondary-light:      #e5fff0;
     --secondary-medium:     #83FFCD;
-    --theme-yellow:         #FCF3B0;
     --theme-blue-dark:      #6980EC;
-    --theme-blue-light:     #A2D7FF;
     --theme-blue-medium:    #87E0FF;
     --theme-black:          #000000;
     --theme-white:          #ffffff;
     --theme-grey-light:     #F5F5F5;
     --theme-grey-dark:      #434243;
     --theme-grey-medium1:   #EAE9EA;
-    --theme-grey-medium2:   #AAA9AA;
     --theme-red-light:      #FFB0B0;
 }
 

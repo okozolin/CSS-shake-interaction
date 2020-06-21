@@ -1,4 +1,4 @@
-#CSS & HTML shake interaction - Flex trick
+# CSS & HTML shake interaction - Flex trick
 by: Orit Kozolin - FrontEnd / FullStack Developer Linkedin
 <hr>
 
@@ -15,14 +15,14 @@ With only pure HTML,CSS the triggering element should be placed as a parent or a
 
 <hr>
 
-###Run
+### Run
 
 Open <strong>index.html</strong> in the browser.
 
-###How to see the effect
+### How to see the effect
 Hover over the blue bar, and watch the notification shake. That's the effect.
 
-###The trick
+### The trick
 For this to work you need to do 2 steps in your code:
 
 1. HTML - Place the triggering element (the bar) first in the DOM. And, the triggered element (the notification) after (as siblings HTML elements, or as parent and child)
