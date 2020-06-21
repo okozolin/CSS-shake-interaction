@@ -49,6 +49,7 @@ a {
 }
 .intro , .steps{
     padding: 10px 20px 20px;
+    max-width: 1300px;
 }
 #example-container {
     background-color: var(--theme-white);
